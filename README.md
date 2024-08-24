@@ -4,7 +4,7 @@
 this is my cheats that took 5 months to make hopefully i dont get banned 
 
 this is the tutorial on how to download it:
-press F12 if your on chrome then go to console then paste the blooket.js and press enter. for the blookmarklet thing add it to bookmarks jus watch that on a youtube video
+press F12 if your on chrome then go to console then paste the blooket.js thing and press enter. for the blookmarklet thing add it to bookmarks jus watch that on a youtube video
 or i might make one.
 
 
