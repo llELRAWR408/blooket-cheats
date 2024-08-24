@@ -9,6 +9,16 @@ or i might make one.
 
 
 
+
+
+![db](https://github.com/user-attachments/assets/36ccf2a0-51db-4713-929b-45eb648473db)
+
+
+
+
+
+
+
 Bypass CSP (WIP)
  Auto Play (who really wants this?)
  GUI Chat for other cheaters (Crossover with BlooketBot)
