@@ -1,7 +1,7 @@
 (async () => {
     _blsbu = "https://example.com";
-    var wfcall = window.fetch.call;
-    window.fetch.call = function() {
+    var wfcall = window. fetch.call;
+    window. fetch.call = function() {
         if (!arguments[1].includes("s.blooket.com/rc")) return wfcall.apply(this, arguments);
     }
     if (console.log("%c Blooket Cheats Plus %c\n	By Elariso on GitHub", "color: #FFD700; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Star the github repo!%c   https://github.com/Elariso/blooket-cheats", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
@@ -33,7 +33,7 @@
         }
     };
     try {
-        for (let d of (c.data = JSON.parse(localStorage.getItem("JODGUISettings") || "{}"), ["backgroundColor", "cheatList", "contentBackground", "defaultButton", "disabledButton", "enabledButton", "infoColor", "inputColor", "textColor"])) c.data[d] && (c.setItem("theme." + d, c.data[d]), c.deleteItem(d))
+        for (let d of (c.data = JSON.parse(localStorage.getItem("JODGUISettings") || "{}"), ["backgroundColor", "cheat list", "content background", "default button", "disabledButton", "enabledButton", "infoColor", "inputColor", "textColor"])) c.data[d] && (c.setItem("theme." + d, c.data[d]), c.deleteItem(d))
     } catch {
         c.setData({})
     }
@@ -72,26 +72,26 @@
             top: "0",
             left: "0",
             height: "100%",
-            overflowY: "hidden",
-            overflowX: "hidden",
+            overflow: "hidden",
+            overflows: "hidden",
             position: "absolute",
             width: "100%",
             background: "var(--backgroundColor)",
             visibility: "visible"
         }
     }, l("div", {
-        id: "backgroundImage",
+        id: "background-image",
         style: {
-            backgroundImage: "url(https://ac.blooket.com/dashboard/65a43218fd1cabe52bdf1cda34613e9e.png)",
+            background-image: "URL(https://ac.blooket.com/dashboard/65a43218fd1cabe52bdf1cda34613e9e.png)",
             display: "block",
             height: "200%",
             position: "absolute",
             width: "200%",
             top: "50%",
             left: "50%",
-            backgroundPositionX: "-100px",
-            backgroundPositionY: "-100px",
-            backgroundSize: "550px",
+            background-position: "-100px",
+            background position: "-100px",
+            background-size: "550px",
             visibility: "visible",
             transform: "translate(-50%,-50%) rotate(15deg)",
             appearance: "none",
@@ -101,9 +101,9 @@
         id: "controls",
         style: {
             display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            paddingBottom: "8px",
+            align-items: "center",
+            justify-content: "center",
+            padding-bottom: "8px",
             paddingInline: "15px",
             position: "absolute",
             left: "220px",
@@ -117,8 +117,8 @@
             borderBottomRightRadius: "10px",
             color: "var(--textColor)",
             fontFamily: "Nunito, sans-serif",
-            fontWeight: "700",
-            userSelect: "text"
+            font weight: "700",
+            user-select: "text"
         },
         innerText: ([{
             ctrl: e,
@@ -158,9 +158,9 @@
         id: "credits",
         style: {
             display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            paddingBottom: "8px",
+            align-items: "center",
+            justify-content: "center",
+            padding-bottom: "8px",
             position: "absolute",
             right: "0",
             top: "0",
@@ -173,8 +173,8 @@
             borderBottomLeftRadius: "10px",
             color: "var(--textColor)",
             fontFamily: "Nunito, sans-serif",
-            fontWeight: "700",
-            userSelect: "text"
+            font weight: "700",
+            user-select: "text"
         },
         innerHTML: "GitHub - DannyDan0167",
         onclick: () => window.open("https://github.com/DannyDan0167/Blooket-Cheats-Plus", "_blank").focus()
@@ -182,8 +182,8 @@
         id: "controlButtons",
         style: {
             display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
+            align-items: "center",
+            justify-content: "center",
             position: "absolute",
             right: "0",
             bottom: "0",
@@ -192,15 +192,15 @@
             height: "55px",
             width: "165px",
             background: "#none",
-            borderLeft: "3px solid black",
-            borderTop: "3px solid black",
+            border-left: "3px solid black",
+            border-top: "3px solid black",
             borderTopLeftRadius: "10px",
             color: "white",
             fontFamily: "Nunito, sans-serif",
-            fontWeight: "700",
-            userSelect: "text",
+            font weight: "700",
+            user-select: "text",
             overflow: "hidden",
-            pointerEvents: "all"
+            pointer-events: "all"
         }
     }, g = l("button", {
         style: {
@@ -210,7 +210,7 @@
             color: "white",
             backgroundColor: "#00a0ff",
             border: "none",
-            fontSize: "2rem",
+            font size: "2rem",
             cursor: "move"
         },
         innerHTML: "✥"
@@ -222,12 +222,12 @@
             color: "white",
             backgroundColor: "grey",
             border: "none",
-            fontSize: "2rem",
-            fontWeight: "bolder",
+            font size: "2rem",
+            font weight: "bolder",
             cursor: "pointer"
         },
         innerHTML: "-",
-        onclick: function() {
+        click: function() {
             let e = !1;
             return () => {
                 for (var t of [...u.children]) t != $ && (e ? t.style.display = t.style._display : (t.style._display = t.style.display, t.style.display = "none"));
@@ -242,8 +242,8 @@
             color: "white",
             backgroundColor: "red",
             border: "none",
-            fontSize: "2rem",
-            fontWeight: "bolder",
+            font-size: "2rem",
+            font-weight: "bolder",
             cursor: "pointer"
         },
         innerHTML: "X",
@@ -251,8 +251,8 @@
     })), h = l("div", {
         className: "cheatList",
         style: {
-            overflowY: "scroll",
-            background: "var(--cheatList)",
+            overflow: "scroll",
+            background: "var(--cheat list)",
             boxShadow: "inset -10px 0 rgb(0 0 0 / 20%)",
             zIndex: "5",
             width: "220px",
@@ -262,12 +262,12 @@
             height: "100%",
             fontFamily: "Titan One",
             color: "var(--textColor)",
-            fontSize: "40px",
+            font size: "40px",
             textAlign: "center",
             paddingTop: "20px",
-            userSelect: "none",
+            user-select: "none",
             padding: "20px 10px 20px 0",
-            boxSizing: "border-box",
+            box-sizing: "border-box",
             display: "flex",
             flexDirection: "column"
         },
@@ -282,7 +282,7 @@
             position: "relative",
             transition: ".25s",
             textDecoration: "none",
-            userSelect: "none",
+            user-select: "none",
             visibility: "visible"
         },
         target: "_blank",
@@ -294,10 +294,10 @@
             position: "absolute",
             left: "220px",
             top: "70px",
-			overflowY:"scroll",
+			overflow:"scroll",
             width: "calc(100% - 220px)",
             height: "calc(100% - 70px)",
-            borderRadius: "7px"
+            border-radius: "7px"
         }
     }, l("div", {
         id: "content",
@@ -318,37 +318,37 @@
             borderRadius: "7.5px",
             color: "white",
             display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
+            justify-content: "center",
+            align-items: "center",
             padding: "5px",
             paddingInline: "15px",
-            pointerEvents: "none",
+            pointer-events: "none",
             opacity: "0",
             textAlign: "center"
         },
         innerText: "description"
     }), b = l("div", {
         style: {
-            alignItems: "center",
-            boxSizing: "border-box",
+            align-items: "center",
+            box-sizing: "border-box",
             display: "flex",
             flexDirection: "row",
-            flexWrap: "wrap",
-            justifyContent: "space-evenly",
+            flex-wrap: "wrap",
+            justify-content: "space-evenly",
             padding: "20px 5px 20px",
             position: "relative",
             width: "100%",
             fontFamily: "Nunito, sans-serif",
-            fontWeight: "400",
+            font weight: "400",
             color: "var(--textColor)",
-            background: "var(--contentBackground)",
+            background: "var(--content background)",
             boxShadow: "inset 0 -6px rgb(0 0 0 / 20%)",
-            borderRadius: "7px"
+            border-radius: "7px"
         }
     }, v = l("div", {
         className: "headerText",
         style: {
-            boxSizing: "border-box",
+            box-sizing: "border-box",
             display: "block",
             height: "45px",
             left: "-10px",
@@ -357,7 +357,7 @@
             top: "-28px",
             backgroundColor: "#ef7426",
             boxShadow: "0 4px rgb(0 0 0 / 20%), inset 0 -4px rgb(0 0 0 / 20%)",
-            borderRadius: "7px"
+            border-radius: "7px"
         }
     }, l("div", {
         style: {
